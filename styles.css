@@ -1,0 +1,158 @@
+﻿body
+{
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: black;
+}
+
+header.navbar-container{
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+header.navbar-container .nav-list ul{
+    padding-left: 0;
+    display: flex;
+    justify-content: center;
+    gap: 2rem 1rem;
+}
+
+header .nav-list li a{
+    color: white;
+    padding: 2rem 3rem;
+    font-size: 1.5rem;
+    transition: all .2s ease-in-out;
+}
+
+main{
+    background-color: #EEEEEE;
+}
+
+main .content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+main .content .content-about{
+    margin-left: 100px;
+    padding: 2rem;    
+}
+
+main .content .content-about h1{
+    font-size: 4rem;
+}
+
+main .content .content-about p {
+    font-size: 1.5rem;
+}
+
+main .content .content-about button {
+    padding: .8rem 2.5rem;
+    margin-block-start: 1rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1rem;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    border: 3px solid transparent;
+    border-radius: 999px;
+    background-color: black;
+    cursor: pointer;
+    transition: all .15s ease-in;
+}
+
+main .content .content-img {
+    flex: 1;
+    display: flex;
+}
+
+main .content .content-img img {
+    margin: auto;
+    min-width: 250px;
+    width: 400px;
+}
+
+main .about{
+    flex: 1;
+    display: flex;
+    flex-direction:column;
+}
+
+main .about .aboutMe{
+    margin-left: 100px;
+    padding: 2rem;
+}
+
+main .about .aboutMe h2{
+    font-size: 2rem;
+}
+
+main .about .aboutMe p{
+    font-size: 1.2rem;
+    min-width: 250px;
+    width: 400px;
+    text-align: justify;
+}
+
+main .about .skill{
+    margin-left: 100px;
+    padding: 2rem;
+}
+
+main .about .skill h2{
+    font-size: 2rem;
+}
+
+main .about .skill ul{
+    flex: 1;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+}
+
+main .about .skill li figcaption{
+    padding: 0 30% 0 30%;
+}
+
+main .about .skill .c {
+    margin: auto;
+    min-width: 100px;
+    width: 170px;
+}
+
+main .about .skill .iot,.robotic {
+    margin: auto;
+    min-width: 100px;
+    width: 200px;
+}
+
+main .about .skill img{
+   padding: 70px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    margin-inline: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+footer .author, .address, .copyright{
+    font-size: .8rem;
+    margin: 5px 10px 0 0;
+}
+
+footer .copyright{
+    padding-left: 40%;
+}
+
+
