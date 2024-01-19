@@ -155,4 +155,108 @@ footer .copyright{
     padding-left: 40%;
 }
 
+/* Media Queries */
+@media screen and (max-width: 1200px) {
+    main .about .skill .iot, .robotic {
+        margin: auto;
+        min-width: 100px;
+        width: 120px;
+    }
+
+    main .about .skill .c {
+        margin: auto;
+        min-width: 100px;
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    main .content .content-img img {
+        margin: auto;
+        min-width: 250px;
+        width: 300px;
+    }
+
+    main .about .skill .iot, .robotic {
+        margin: auto;
+        min-width: 100px;
+        width: 120px;
+    }
+
+    main .about .skill .c {
+        margin: auto;
+        min-width: 100px;
+        width: 100px;
+    }
+}
+
+/* Media Queries max width 768px*/
+@media screen and (max-width: 768px) {
+    /* Queries About */
+    main .content .content-img img {
+        margin: auto;
+        min-width: 250px;
+        width: 250px;
+    }
+    main .content .content-about h1 {
+        font-size: 3.5rem;
+    }
+    main .content .content-about p {
+        font-size: 1.0rem;
+    }
+    main .content .content-about button {
+        padding: .5rem 1.5rem;
+        margin-block-start: .5rem;
+        font-size: 1rem;
+        border-radius: 999px;
+    }
+
+    /* Queries Skill */
+    main .about .skill ul {
+        flex-direction: column;
+        justify-content: center;
+    }
+    main .about .skill li .capRobot {
+        padding: 0 20vw 0 20vw;
+    }
+
+    main .about .aboutMe {
+        margin-left: 20px;
+        padding: .5rem;
+    }
+
+    main .content .content-about {
+        margin-left: 20px;
+        padding: .5rem;
+    }
+
+    main .about .aboutMe h2 {
+        font-size: 1rem;
+    }
+
+    main .about .aboutMe p {
+        font-size: 1rem;
+        min-width: 250px;
+        width: 400px;
+        text-align: justify;
+    }
+
+    main .about .skill {
+        margin-left: 20px;
+        padding: .5rem;
+    }
+
+    main .about .skill h2{
+    font-size: 1rem;
+    }
+
+    /* Queries footer */
+    footer .author, .address, .copyright {
+        font-size: .6rem;
+        padding-left: 5px;
+    }
+    footer .copyright {
+        padding-left: 30%;
+    }
+}
 
